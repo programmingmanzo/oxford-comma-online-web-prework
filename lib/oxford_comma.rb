@@ -8,7 +8,8 @@ def oxford_comma(array)
     last_element = array[2]
     array.pop 
     array << "and #{last_element}"
-    new_array = array 
+    new_array = []
+    new_array = array
     new_array.join
   else
     array.join
